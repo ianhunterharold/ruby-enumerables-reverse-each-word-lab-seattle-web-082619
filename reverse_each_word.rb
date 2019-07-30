@@ -1,5 +1,5 @@
 def reverse_each_word(word)
-  word.each{|word_to_reverse|word_to_reverse.reverse}
+  word.each{|reversed_word|reversed_word.reverse}
   puts word_to_reverse.reverse
 end 
 
