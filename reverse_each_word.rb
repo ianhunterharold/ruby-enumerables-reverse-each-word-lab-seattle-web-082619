@@ -8,6 +8,6 @@ end
 
 #reference code to review over 
 
-array.each do |item|
-  puts "The current array item is: #{item}"
-end
+# array.each do |item|
+#   puts "The current array item is: #{item}"
+# end
