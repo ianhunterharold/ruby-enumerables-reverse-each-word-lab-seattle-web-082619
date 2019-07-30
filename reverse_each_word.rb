@@ -3,3 +3,5 @@ def reverse_each_word(word)
   puts word_to_reverse.reverse
 end 
 
+array.each {|item| puts "The current array item is: #{item}"}
+
