@@ -1,6 +1,7 @@
 def reverse_each_word(sentence1)
   array = sentence1.split(" ")
-  array.each{|word| word.reverse}
+  array.each do |new_array|
+    puts new_array.reverse
 end 
 
 #array.each {|item| puts "The current array item is: #{item}"}
