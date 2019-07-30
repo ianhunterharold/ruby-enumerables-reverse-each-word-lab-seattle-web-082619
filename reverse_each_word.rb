@@ -3,9 +3,3 @@ def reverse_each_word(word)
   puts word_to_reverse.reverse
 end 
 
-
-
-$ a = "abc"
-$ a.reverse!
-$ puts a
-cba
