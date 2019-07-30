@@ -9,9 +9,9 @@
 end
 
 def reverse_each_word(string)
-  orginal_array = string.split(" ") #turning string into an array 
+  array = string.split(" ") #turning string into an array 
   return_array = [] #create new array that we will push our new values into 
-  original_array.collect do |string|
+  array.collect do |string|
     return_array << string.reverse # putting reversed words into new array using shovel 
   end 
   return_array.join(" ") # returning array by taking all of the elements and removing the spaces inbetween them 
